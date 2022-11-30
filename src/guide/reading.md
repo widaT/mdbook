@@ -39,24 +39,23 @@
 单击任何结果都将跳转到该部分。向上和向下箭头键可用于导航结果，按键盘确认键将打开突出显示的部分。
 加载搜索结果后，匹配的关键字将在文本中突出显示。单击突出显示的单词或按“Esc”键将删除突出显示。
 
-## Code blocks
+## 代码块
 
 mdBook books are often used for programming projects, and thus support highlighting code blocks and samples.
 Code blocks may contain several different icons for interacting with them:
+mdBook书籍通常用于编程项目，因此支持高亮显示代码块和代码示例。
+
+代码块可能包含几个不同的图标用于与它们交互：
 
 | Icon | Description |
 |------|-------------|
-| <i class="fa fa-copy"></i> | Copies the code block into your local clipboard, to allow pasting into another application. |
-| <i class="fa fa-play"></i> | For Rust code examples, this will execute the sample code and display the compiler output just below the example (see [playground]). |
-| <i class="fa fa-eye"></i> | For Rust code examples, this will toggle visibility of "hidden" lines. Sometimes, larger examples will hide lines which are not particularly relevant to what is being illustrated (see [hiding code lines]). |
-| <i class="fa fa-history"></i> | For [editable code examples][editor], this will undo any changes you have made. |
+| <i class="fa fa-copy"></i> | 将代码块复制到本地剪贴板，以允许粘贴到另一个应用程序。 |
+| <i class="fa fa-play"></i> | 对于 Rust 代码示例，这将执行示例代码并在示例下方显示编译器输出（请参阅 [playground](../format/mdbook.md#rust-playground)）。 |
+| <i class="fa fa-eye"></i> | 对于 Rust 代码示例，这将切换“隐藏”行的可见性。 有时，较大的示例会隐藏与所说明内容不特别相关的行（请参阅 [隐藏代码行](../format/mdbook.md#hiding-code-lines)). |
+| <i class="fa fa-history"></i> | 对于可编辑代码示例[编辑器](../format/theme/editor.md)，这将撤消您所做的任何更改。 |
 
 Here's an example:
 
 ```rust
 println!("Hello, World!");
 ```
-
-[editor]: ../format/theme/editor.md
-[playground]: ../format/mdbook.md#rust-playground
-[hiding code lines]: ../format/mdbook.md#hiding-code-lines

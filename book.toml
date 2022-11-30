@@ -5,20 +5,18 @@ authors = ["Mathieu David", "Michael-F-Bryan"]
 language = "zh"
 multilingual = false
 
-[rust]
-edition = "2018"
-
 [output.html]
 additional-css = ["theme/style3.css"]
-#additional-js = ["assets/custom.js", "assets/bigPicture.js"]
 git-repository-url = "https://github.com/widaT/mdbook"
 edit-url-template = "https://github.com/widaT/mdbook/edit/master/{path}"
 
 [output.html.playground]
 editable = true
 copy-js = true
-# line-numbers = true
 
 [output.html.fold]
 enable = true
 level = 1
+
+[rust]
+edition = "2018"

@@ -1,4 +1,4 @@
-# The clean command
+# clean 命令
 
 The clean command is used to delete the generated book and any other build
 artifacts.

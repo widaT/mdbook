@@ -1,4 +1,4 @@
-# The serve command
+# serve 命令
 
 The serve command is used to preview a book by serving it via HTTP at
 `localhost:3000` by default: 

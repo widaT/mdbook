@@ -1,55 +1,43 @@
-# Reading Books
+# 阅读说明
 
-This chapter gives an introduction on how to interact with a book produced by mdBook.
-This assumes you are reading an HTML book.
-The options and formatting will be different for other output formats such as PDF.
+本章介绍如何阅读mdBook制作的书籍，HTML在线书籍和其他输出格式（如PDF）的书籍格式有所不同。
 
-A book is organized into *chapters*.
-Each chapter is a separate page.
-Chapters can be nested into a hierarchy of sub-chapters.
-Typically, each chapter will be organized into a series of *headings* to subdivide a chapter.
+书籍以*章节* 形式组成,每一节都是单独的一页。很多节按照顺序构成一章。通常每一节以*标题*列表的方式镶嵌在数据的一章中。 
 
-## Navigation
+## 导航
 
-There are several methods for navigating through the chapters of a book.
+浏览书籍章节有好几种方法。
 
-The **sidebar** on the left provides a list of all chapters.
-Clicking on any of the chapter titles will load that page.
+左侧的**侧边栏**提供了所有章节的列表，单击任何章节标题将加载该页面。
 
-The sidebar may not automatically appear if the window is too narrow, particularly on mobile displays.
-In that situation, the menu icon (three horizontal bars) at the top-left of the page can be pressed to open and close the sidebar.
+如果窗口太窄，特别是在移动显示器上，侧边栏可能不会自动显示。在这种情况下，可以按下页面左上方的菜单图标（三个水平条）来打开和关闭侧边栏。
 
-The **arrow buttons** at the bottom of the page can be used to navigate to the previous or the next chapter.
+页面底部的**箭头按钮**可用于导航到上一章或下一章。
 
-The **left and right arrow keys** on the keyboard can be used to navigate to the previous or the next chapter.
+键盘上的**左右箭头键**可用于导航到上一章或下一章。
 
-## Top menu bar
+## 顶部菜单栏
 
-The menu bar at the top of the page provides some icons for interacting with the book.
-The icons displayed will depend on the settings of how the book was generated.
+页面顶部的菜单栏提供了一些与书籍交互的图标。显示的图标将取决于配置。
 
-| Icon | Description |
+| Icon | 描述 |
 |------|-------------|
-| <i class="fa fa-bars"></i> | Opens and closes the chapter listing sidebar. |
-| <i class="fa fa-paint-brush"></i> | Opens a picker to choose a different color theme. |
-| <i class="fa fa-search"></i> | Opens a search bar for searching within the book. |
-| <i class="fa fa-print"></i> | Instructs the web browser to print the entire book. |
-| <i class="fa fa-github"></i> | Opens a link to the website that hosts the source code of the book. |
-| <i class="fa fa-edit"></i> | Opens a page to directly edit the source of the page you are currently reading. |
+| <i class="fa fa-bars"></i> | 打开或打开侧边栏 |
+| <i class="fa fa-paint-brush"></i> | 打开选择器以选择不同的颜色主题。 |
+| <i class="fa fa-search"></i> | 打开搜索栏以在书本中搜索。 |
+| <i class="fa fa-print"></i> | 使用web浏览器打印整本书。 |
+| <i class="fa fa-github"></i> | 打开指向该书源代码的Github地址的链接。 |
+| <i class="fa fa-edit"></i> | 打开页面以直接编辑当前正在阅读的页面的源代码。|
 
-Tapping the menu bar will scroll the page to the top.
+点击菜单栏将页面滚动到顶部.
 
-## Search
+## 搜索
 
-Each book has a built-in search system.
-Pressing the search icon (<i class="fa fa-search"></i>) in the menu bar, or pressing the `S` key on the keyboard will open an input box for entering search terms.
-Typing some terms will show matching chapters and sections in real time.
-
-Clicking any of the results will jump to that section.
-The up and down arrow keys can be used to navigate the results, and enter will open the highlighted section.
-
-After loading a search result, the matching search terms will be highlighted in the text.
-Clicking a highlighted word or pressing the `Esc` key will remove the highlighting.
+每本书都有一个内置的搜索系统。
+单机顶部菜单栏搜索图标(<i class="fa fa-search"></i>) ,或者按键盘上的“S”键将打开搜索框。
+输入一些关键词将实时显示匹配的章节和部分.
+单击任何结果都将跳转到该部分。向上和向下箭头键可用于导航结果，按键盘确认键将打开突出显示的部分。
+加载搜索结果后，匹配的关键字将在文本中突出显示。单击突出显示的单词或按“Esc”键将删除突出显示。
 
 ## Code blocks
 

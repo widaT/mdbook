@@ -1,4 +1,4 @@
-# The watch command
+# watch 命令
 
 The `watch` command is useful when you want your book to be rendered on every
 file change. You could repeatedly issue `mdbook build` every time a file is

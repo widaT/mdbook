@@ -1,4 +1,4 @@
-# The build command
+# build 命令
 
 The build command is used to render your book:
 

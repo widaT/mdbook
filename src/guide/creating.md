@@ -1,4 +1,4 @@
-# Creating a Book
+# 创建书籍
 
 Once you have the `mdbook` CLI tool installed, you can use it to create and render a book.
 

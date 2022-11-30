@@ -54,7 +54,7 @@ mdBook书籍通常用于编程项目，因此支持高亮显示代码块和代�
 | <i class="fa fa-eye"></i> | 对于 Rust 代码示例，这将切换“隐藏”行的可见性。 有时，较大的示例会隐藏与所说明内容不特别相关的行（请参阅 [隐藏代码行](../format/mdbook.md#hiding-code-lines)). |
 | <i class="fa fa-history"></i> | 对于可编辑代码示例[编辑器](../format/theme/editor.md)，这将撤消您所做的任何更改。 |
 
-Here's an example:
+这里是一个例子:
 
 ```rust
 println!("Hello, World!");

@@ -7,4 +7,4 @@ mdbook中文指南
 
 ## 加群众微信一起学rust
 
-- ![](wechat.png)
+- ![](https://learninggo.bjxw.xyz/img/wechat.png)

@@ -28,7 +28,7 @@ cargo install mdbook
 
 ### 安装 Git 版本
 
-**[git 版本](https://github.com/rust-lang/mdBook)**包含所有最新的错误修复和功能，如果您不能等到下一个版本，它们将在 **Crates.io** 的下一个版本中发布。 您可以自己构建 git 版本。 打开您的终端并导航到您选择的目录。 我们需要克隆 git 存储库，然后使用 Cargo 构建它。
+***[git 版本](https://github.com/rust-lang/mdBook)*** 包含所有最新的错误修复和功能，如果您不能等到下一个版本，它们将在 **Crates.io** 的下一个版本中发布。 您可以自己构建 git 版本。 打开您的终端并导航到您选择的目录。 我们需要克隆 git 存储库，然后使用 Cargo 构建它。
 
 ```bash
 git clone --depth=1 https://github.com/rust-lang/mdBook.git

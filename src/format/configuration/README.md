@@ -1,12 +1,14 @@
-# Configuration
+# 配置
 
-This section details the configuration options available in the ***book.toml***:
-- **[General]** configuration including the `book`, `rust`, `build` sections
-- **[Preprocessor]** configuration for default and custom book preprocessors
-- **[Renderer]** configuration for the HTML, Markdown and custom renderers
-- **[Environment Variable]** configuration for overriding configuration options in your environment
+本节详细介绍了`book.toml`中可用的配置选项：
 
-[General]: general.md
-[Preprocessor]: preprocessors.md
-[Renderer]: renderers.md
-[Environment Variable]: environment-variables.md
+- [常规配置]包括 book、rust、build 部分
+- [预处理器] 配置默认和自定义预处理器.
+- [渲染器] 配置HTML，Markdown 和 自定义渲染器。
+- [环境变量] 配置用于覆盖默认环境变量中的配置选项。
+
+
+[常规配置]: general.md
+[预处理器]: preprocessors.md
+[渲染器]: renderers.md
+[环境变量]: environment-variables.md

@@ -15,7 +15,7 @@ editable = true
 copy-js = true
 
 [output.html.fold]
-enable = true
+enable = false
 level = 1
 
 [rust]

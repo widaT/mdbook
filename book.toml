@@ -5,10 +5,12 @@ authors = ["Mathieu David", "Michael-F-Bryan"]
 language = "zh"
 multilingual = false
 
+
 [output.html]
 additional-css = ["theme/style3.css"]
 git-repository-url = "https://github.com/widaT/mdbook"
 edit-url-template = "https://github.com/widaT/mdbook/edit/master/{path}"
+mathjax-support = true
 
 [output.html.playground]
 editable = true
